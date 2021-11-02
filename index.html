@@ -10,16 +10,19 @@
   <style>
     body {
       background-color: black;
+
+    }
+    main {
+      height: 100vh;
+      width: 100vw;
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100vh;
-      width: 100vw;
     }
-    main {
+    article{
       flex: 1;
       height: 50vh;
-      width: 80vw;
+      max-width: 80vw;
     }
     .parent {
       display: grid;
@@ -48,16 +51,21 @@
   </style>
 </head>
 <body>
-  <main class="parent">
-    <section class="message">message</section>
-    <section class="information">informatin</section>
-    <section class="image">image</section>
+  <main >
+    <article class="parent">
+      <section class="message">
+        <h1>Get insights that help your business grow.</h1>
+        <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+        experience, and overall efficiency.</p>
+      </section>
+      <section class="information">informatin</section>
+      <section class="image">image</section>
+    </article>
   </main>
 
-  Get insights that help your business grow.
+  
 
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
+  
 
   10k+ companies
   314 templates
