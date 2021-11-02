@@ -10,14 +10,48 @@
   <style>
     body {
       background-color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      width: 100vw;
     }
+    main {
+      flex: 1;
+      height: 50vh;
+      width: 80vw;
+    }
+    .parent {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      grid-column-gap: 0px;
+      grid-row-gap: 0px;
+      grid-template-areas:
+        "message image"
+        "information image";
+      color: white;
+    }
+    .message {
+      grid-area: message;
+      background-color: red;
+    }
+    .information {
+      grid-area: information;
+      background-color: blue;
+    }
+    .image {
+      grid-area: image;
+      background-color: green;
+    }
+
   </style>
 </head>
 <body>
-  <main>
-    <section class="message"></section>
-    <section class="information"></section>
-    <section class="image"></section>
+  <main class="parent">
+    <section class="message">message</section>
+    <section class="information">informatin</section>
+    <section class="image">image</section>
   </main>
 
   Get insights that help your business grow.
