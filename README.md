@@ -1,10 +1,10 @@
 # Responsive Stats Preview Card Component with HTML & CSS
+![Preview Card Component's desktop screen shot](./images/preveiw-card-desktop.png)
 
 This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 - [The challenge](#the-challenge)
-- [Screenshot](#screenshot)
 - [Links](#links)
 - [Built with](#built-with)
 - [What I learned](#what-i-learned)
@@ -15,14 +15,10 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 Users should be able to view the optimal layout depending on their device's screen size
 
-### Screenshot
-
-![Preview Card Component's desktop screen shot](./images/preveiw-card-desktop.png)
-
 ### Links
 
-- Solution URL: [Solution posted to Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-stats-preview-card-component-with-html-and-css-57bqbba1b)
-- Live Site URL: [Stats Preview Card Component](https://jcsmileyjr.github.io/stats-preview-card-component/)
+- [Read the blog post that documents this learning experience](https://dev.to/jcsmileyjr/frontend-mentor-challenge-2-2m17)
+- [Play with the live site](https://jcsmileyjr.github.io/stats-preview-card-component/)
 
 ### Built with
 
